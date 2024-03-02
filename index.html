@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width">
+    <title>Encriptador Challenge ONE</title>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Merriweather:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/Logo.png">
+        </div>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="mensaje">
+                <section class="s1">
+                    <textarea cols="40" rows="15" class="texto-sin-encriptar" placeholder="Ingresa el texto aquí"></textarea>
+                    <h1 class="aviso-minusculas-acentos">&#9888; Sólo letras minúsculas y sin acentos</h1>
+                    <div class="botones">
+                        <button class="boton-encriptar">Encriptar</button>
+                        <button class="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </section>
+            </div>
+            <!-- <div class="mensaje-encriptado">
+                <section class="s2">
+                    <textarea cols="20" rows="15" class="texto-encriptado"></textarea>
+                </section>
+    
+                <img class="imagen" src="Images/Muñeco.png">
+                <h2 class="mensaje-no-encriptado">Ningún mensaje fué encontrado</h3>
+                <h3 class="aviso-no-texto">Ingresa el texto que deseas encriptar o desencriptar</h3>
+            </div> -->
+            <div class="mensaje-encriptado">
+                <section class="s2">
+                    <div class="texto-encriptado" id="resultado">
+                        <img class="imagen" src="Images/Muñeco.png">
+                        <h2 class="mensaje-no-encriptado">Ningún mensaje fué encontrado</h2>
+                        <h3 class="aviso-no-texto">Ingresa el texto que deseas encriptar o desencriptar</h3>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p class="copyright">&#169; Copyright Andrés Niño</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
